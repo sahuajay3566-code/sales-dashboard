@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sales Dashboard</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>Sales Dashboard</h1>
+  <p>Frontend Data Visualization Project</p>
+</header>
+
+<section class="cards">
+  <div class="card">Total Sales: ₹<span id="totalSales">0</span></div>
+  <div class="card">Total Orders: <span id="orders">0</span></div>
+</section>
+
+<canvas id="salesChart"></canvas>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
